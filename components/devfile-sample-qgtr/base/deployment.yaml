@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-qgtr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0036-tenant/tkrw-pr712-0075-0036-app/devfile-sample-qgtr@sha256:f483cd04e692c8332f005872053561a8a1b62ade70ed4d7d27a9fb353a9a9752
         name: my-nodejs
         ports:
         - containerPort: 3001
